@@ -1,7 +1,388 @@
-html, body {
-  margin: 0;
-  padding: 0;
+body{
+	margin: 0px;
+	background-size: cover;
+	background-position: center;
 }
-canvas {
-  display: block;
+
+
+
+.main{
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	width: 100%;
+	height: 400px;
+	top: 0px;
+	left: 0px;
+}
+
+
+.container1{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 250px;
+}
+
+.starts{
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 250%;
+	font-weight: 600;
+	top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: black;
+	letter-spacing: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.sustainability{
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 150%;
+	font-weight: 600;
+	top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: black;
+	letter-spacing: 5px;
+	font-style: italic;
+}
+
+.wrapperHeader{
+	margin: 0 auto 0 auto;
+	width: 100%;
+	height: 500px;
+	
+}
+
+.buttonPress{
+	width: 130px;
+	height: 30px;
+	float: right;
+	padding-top: 22px;
+  	padding-right: 40px;
+
+}
+
+.buttonPress{
+	border-radius: 29px;
+	border: 2px solid black;
+	width: 90px;
+	height: 20px;
+		padding-left: 29px;
+	padding: 11px;
+	padding-top: 12px;
+
+  	margin: 10px;
+
+}
+
+
+
+.button{
+	float: right;
+  	color: #000;
+  	font-weight: 400;
+  	font-size: .77em;
+  	padding-top: 25px;
+  	padding-right: 40px; 
+  	cursor: pointer;
+  	font-family: Verdana, Geneva, sans-serif;
+}
+
+.button:hover{
+	color: black;
+	text-transform: uppercase;
+}
+.bedf{
+	display: flex;
+	flex-direction: column;
+	padding-left: 27px;
+	padding-top: 16px;
+	float: left;
+}
+
+.text1{
+	font-size: 40px;
+	font-weight: 500;
+	letter-spacing: 5px;
+	position: relative;
+}
+.text2{
+
+	text-transform: uppercase;
+	font-size: 20px;
+	color: black;
+}
+#image1{
+	background: url("img/mountain-lake-1030924_960_720.jpg");
+	width: 100%;
+	height: 800%;
+	background-position: 2px;
+}
+
+
+.withoutPh{
+	display: flex;
+	flex-direction: column;
+}
+
+.h3{
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 450;
+	font-weight: 300;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+
+}
+.parag1{
+	font-style: italic;
+	font-weight: 200;
+	font-size: 300;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.Parag1{
+	padding: 20px;
+	font-size: 300;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.col{
+	padding-right: 300px;
+	padding-left: 300px;
+}
+
+.row1{
+	padding-top: 90px;
+	padding-left: 300px;
+	padding-bottom: 90px;
+	width: 60%;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.inrow1{
+	text-align: center;
+	padding-left: 50px;
+	letter-spacing: 3px;
+	line-height: 30px;
+	padding-bottom: 20px;
+
+}
+.inrow2{
+	text-align: center;
+	padding-right: 50px;
+	letter-spacing: 3px;
+	line-height: 30px;
+	padding-bottom: 20px;
+
+}
+
+.row2{
+	padding-top: 90px;
+	padding-right: 300px;
+	padding-bottom: 90px;
+	width: 60%;
+	height: 300px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.withButton{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.buttonPress1{
+	text-transform: uppercase;
+	border-radius: 18px;
+	border: 1px solid #1F7981;
+	width: 120px;
+	height: 20px;
+	background-color: #1F7981;
+	padding: 7px;
+	padding-top: 10px;
+	background-position: 20px;
+  	text-align: center;
+  	margin-left: 180px;
+  	color: white;
+
+}
+
+.buttonPress1:hover{
+	background-color: #035D65;
+}
+
+.buttonPress2{
+	text-transform: uppercase;
+	border-radius: 18px;
+	border: 1px solid #1F7981;
+	width: 150px;
+	height: 20px;
+	background-color: #1F7981;
+	padding: 7px;
+	padding-top: 10px;
+  	margin-right: 100px;
+  	margin-left: 100px; 
+  	color: white;
+	text-align: center;
+}
+
+.buttonPress2:hover{
+	background-color: #035D65;
+}
+.withInput input{
+	height: 50px;
+	width: 240px;
+	margin-right: 8px;
+}
+.beforeFooter{
+	background-color: #F7F7F7;
+	width: 100%;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+}
+
+.text3{
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.text4{
+	text-transform: uppercase;
+	font-size: 10px;
+	color: black;
+	text-align: center;
+}
+footer{
+	width: 100%;
+	background-color: #222;
+	padding: 60px 0px;
+}
+
+.text5{
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	position: relative;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	color: white;
+}
+.text6{
+	text-transform: uppercase;
+	font-size: 10px;
+	color: black;
+	text-align: center;
+	color: white;
+}
+
+.withInput{
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+	padding-left: 500px;
+}
+
+.withInput button{
+	color: white;
+	height: 50px;
+	width: 80px;
+	background-color: #222222;
+	border: 1px solid #222222 !important;
+}
+
+
+.listOfItems{
+	/* background-color: #FBC1C6;*/
+	 text-align: left;
+}
+
+.listOfItems ul{
+	display: inline-flex;
+	list-style: none;
+	color: black;
+}
+
+.listOfItems ul li{
+  list-style-type: none;
+  width: 120px;
+  margin: 5px;
+  padding: 5px;
+  
+}
+.listOfItems ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.salesclass{
+	color: red;
+}
+
+.active, .listOfItems ul li:hover{
+	background-color: #E3A9AE;
+	border-radius: 3px;
+
+}
+
+.listOfItems .fa{
+	margin-right: 3px;
+}
+.sub_menu_1{
+	display: none;
+}
+
+.listOfItems ul li:hover .sub_menu_1{
+	display: block;
+	position: absolute;
+	background-color: #E3A9AE;
+	margin-top: 15px;
+	margin-left: -6px;
+}
+.listOfItems ul li:hover .sub_menu_1 ul{
+	display: block;
+	margin: 7px;
+	border-radius: 3px;
+}
+
+.listOfItems ul li:hover .sub_menu_1 ul li{
+	width: 100px;
+	padding: 10px;
+	border-bottom: 1px dotted black;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+
+.listOfItems ul li:hover .sub_menu_1 ul li:last-child{
+	border-bottom: none;
+}
+
+.listOfItems ul li:hover .sub_menu_1 ul li a:hover{
+	color
 }
